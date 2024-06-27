@@ -1,20 +1,17 @@
 export const dataButtons: Array<ButtonProps> = [
 	{
+		id: "001",
 		link: "https://infosecmachines.io",
 		title: "Web Filter Machines",
-		color: "#b30047",
-		hoverColor: "#99003d",
 	},
 	{
+		id: "002",
 		link: "https://onlinechessclock.dev",
 		title: "Online Chess Clock",
-		color: "#008000",
-		hoverColor: "#006600",
 	},
 	{
+		id: "003",
 		link: "https://github.com/JavierMolines",
 		title: "GitHub",
-		color: "#47476b",
-		hoverColor: "#3d3d5c",
 	},
 ];

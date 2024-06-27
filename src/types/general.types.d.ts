@@ -3,8 +3,7 @@ interface ElementChild {
 }
 
 interface ButtonProps {
+	id: string;
 	title: string;
 	link: string;
-	color: string;
-	hoverColor: string;
 }
