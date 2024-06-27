@@ -1,9 +1,9 @@
 {
-    "recommendations": [
-        "biomejs.biome",
-        "usernamehw.errorlens",
-        "mhutchie.git-graph",
-        "eamodio.gitlens",
-        "bradlc.vscode-tailwindcss"
-    ]
+	"recommendations": [
+		"biomejs.biome",
+		"usernamehw.errorlens",
+		"mhutchie.git-graph",
+		"eamodio.gitlens",
+		"bradlc.vscode-tailwindcss"
+	]
 }
