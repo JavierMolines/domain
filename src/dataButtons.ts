@@ -11,6 +11,11 @@ export const dataButtons: Array<ButtonProps> = [
 	},
 	{
 		id: "003",
+		link: "https://clipboard.javiermolines.com",
+		title: "Clipboard Manager",
+	},
+	{
+		id: "000",
 		link: "https://github.com/JavierMolines",
 		title: "GitHub",
 	},
