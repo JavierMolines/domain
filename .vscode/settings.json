@@ -1,16 +1,7 @@
 {
-	"editor.formatOnSave": true,
-	"[json]": {
-		"editor.defaultFormatter": "biomejs.biome"
-	},
-	"[javascript]": {
-		"editor.defaultFormatter": "biomejs.biome"
-	},
-	"[typescript]": {
-		"editor.defaultFormatter": "biomejs.biome"
-	},
-	"[typescriptreact]": {
-		"editor.defaultFormatter": "biomejs.biome"
-	},
-	"cSpell.words": ["biomejs", "Molines", "tailwindcss", "tsbuildinfo"]
+  "editor.formatOnSave": true,
+  "[astro]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cSpell.words": ["astro", "astrojs", "tailwindcss"]
 }
