@@ -11,37 +11,44 @@ const dataButtons: Array<ButtonProps> = [
   {
     link: "https://infosecmachines.io",
     title: "Web Filter Machines",
-    style:
-      "inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-[#b30047] hover:bg-[#99003d]",
+    style: "bg-rose-800 hover:bg-rose-900",
   },
   {
     link: "https://onlinechessclock.dev",
     title: "Online Chess Clock",
-    style:
-      "inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-[#008000] hover:bg-[#006600]",
+    style: "bg-amber-800 hover:bg-amber-900",
   },
   {
     link: "https://clipboard.javiermolines.com",
     title: "Clipboard Manager",
-    style:
-      "inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-[#ff3300] hover:bg-[#cc2900]",
+    style: "bg-orange-700 hover:bg-orange-800",
+  },
+  {
+    link: "https://editor.javiermolines.com",
+    title: "Editor Jsonb64",
+    style: "bg-emerald-800 hover:bg-emerald-900",
   },
   {
     link: "https://github.com/JavierMolines",
     title: "GitHub",
-    style:
-      "inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-[#47476b] hover:bg-[#3d3d5c]",
+    style: "bg-gray-600 hover:bg-gray-700",
   },
 ];
 ---
 
-{
-  dataButtons.map(({ title, link, style }) => {
-    return (
-      <a href={link} class={style}>
-        {title}
-        <Icon />
-      </a>
-    );
-  })
-}
+<article
+  class="flex flex-col flex-wrap space-y-4 sm:flex-row sm:justify-center gap-5 sm:space-y-0"
+>
+  {
+    dataButtons.map(({ title, link, style }) => {
+      const classStyle = `inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg ${style}`;
+
+      return (
+        <a href={link} class={classStyle}>
+          {title}
+          <Icon />
+        </a>
+      );
+    })
+  }
+</article>
